@@ -1,0 +1,5 @@
+string_to_change=(input("Please enter a string:"))
+string_length=len(string_to_change)
+first_half_of_string=(string_to_change[0:int(string_length/2)]).lower()
+second_half_of_string=(string_to_change[int(string_length/2):]).upper()
+print(first_half_of_string+second_half_of_string)
